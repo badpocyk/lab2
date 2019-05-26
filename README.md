@@ -74,7 +74,7 @@
 
 Установка grub на новый диск
 
-![](https://github.com/badpocyk/lab2/blob/master/screens/8.PNG?raw=true)
+![](https://github.com/badpocyk/lab2/blob/master/screens/8.png?raw=true)
 
 Проверка что все работает
 
