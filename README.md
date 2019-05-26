@@ -33,18 +33,18 @@
 
 В этой работе я научился устанавливать ОС Linux, настраивать LVM и RAID, а также ознакомился с командами: 
 
-*lsblk -o NAME,SIZE,FSTYPE,TYPE,MOUNTPOINT
+* lsblk -o NAME,SIZE,FSTYPE,TYPE,MOUNTPOINT
 
-*fdisk -l
+* fdisk -l
 *+pvs,lvs,vgs
 
-*cat /proc/mdstat
+* cat /proc/mdstat
 
-*mount
+* mount
 
-*dd if=/dev/xxx of=/dev/yyy
+* dd if=/dev/xxx of=/dev/yyy
 
-*grub-install /dev/XXX
+* grub-install /dev/XXX
 
 В результате получил виртуальную машину с дисками ssd1, ssd2.
 
@@ -87,22 +87,22 @@
 В этом задании научился:
 
 
-*Удалять диск ssd1
+* Удалять диск ssd1
 
-*Проверять статус RAID-массива
+* Проверять статус RAID-массива
 
-*Копировать таблицу разделов со старого диска на новый
+* Копировать таблицу разделов со старого диска на новый
 
-*Добавлять в рейд массив новый диск
+* Добавлять в рейд массив новый диск
 
-*Выполнять синхронизацию разделов, не входящих в RAID
+* Выполнять синхронизацию разделов, не входящих в RAID
 
 Изучил новые команды:
 
 
-*sfdisk -d /dev/XXXX | sfdisk /dev/YYY
+* sfdisk -d /dev/XXXX | sfdisk /dev/YYY
 
-*mdadm --manage /dev/md0 --add /dev/YYY
+* mdadm --manage /dev/md0 --add /dev/YYY
 
 Результат: Удален диск ssd1, добавлен диск ssd3, ssd2 сохранен
 
