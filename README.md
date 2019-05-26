@@ -1,7 +1,7 @@
 ﻿# lab2
 
 # Установка ОС и настройка LVM, RAID
-1.
+
 1. Установка Linux
 ![](screens/VirtualBox_Raid_26_03_2019_16_55_33.png)
 
